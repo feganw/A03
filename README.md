@@ -36,7 +36,7 @@ September 17, 2021
 	- Windows:  `cat key.pub | clip`
 - Navigate to your account settings on the GitHub website and add your SSH key.
 - Use the ssh-add command to add your private key.
-- Start the ssh agent: ``eval `ssh-agent -s```
+- Start the ssh agent: ``eval `ssh-agent -s` ``
 - Add your key: `ssh-add ~/.ssh/[private-key]`
 
 You should now be ready to make commits to your repository.

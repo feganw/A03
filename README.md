@@ -36,6 +36,8 @@ September 17, 2021
 		- Windows:  `cat key.pub | clip`
 	- Navigate to your account settings on the GitHub website and add your SSH key.
 	- Use the ssh-add command to add your private key.
+	- Start the ssh agent: `eval \`ssh-agent -s\``
+	- Add your key: `ssh-add ~/.ssh/[private-key]`
 
 You should now be ready to make commits to your repository.
 
@@ -45,6 +47,22 @@ You should now be ready to make commits to your repository.
 	- Navigate to the disk.
 	- Create some files.
 	- Type `git init`
+	- Type `git remote add origin git@github.com:[repository].git`
 	- Type `git add [Filename]` for each file in your folder.
 	- Type `git commit -m ["Description of commit"]`
 	- Type `git push origin master`
+
+## Webstorm:
+	Webstorm is an integrated development environment (IDE) designed for web development.
+I personally will not be using Webstorm for my development. A student license copy of Webstorm 
+can be downloaded for free from:
+https://www.jetbrains.com/webstorm/download/
+
+You may apply for a student license here:
+https://www.jetbrains.com/community/education/#students
+
+## Sources:
+https://programmingwithswift.com/ssh-add-could-not-open-a-connection-to-your-authentication-agent/
+https://jhooq.com/github-permission-denied-publickey/
+https://github.github.com/gfm/#code-spans
+https://kbroman.org/github_tutorial/pages/init.html

@@ -1,7 +1,7 @@
-My *Awesome* Readme
-Wesley Fegan
-IS117-005
-September 17, 2021
+My *Awesome* Readme  
+Wesley Fegan  
+IS117-005  
+September 17, 2021  
 
 #Using Git in conjunction with Github
 
@@ -24,8 +24,8 @@ September 17, 2021
 
 ## Configuring Git:
 - Set username and email to be the same as your GitHub account:
-	`git config user.name "[GitHub Username]"`
-	`git config user.email "[GitHub Email]"`
+	`git config user.name "[GitHub Username]"`  
+	`git config user.email "[GitHub Email]"`  
 
 ## Authenticating Your Machine With Github
 - Open Bash (included with Git for Windows User).
@@ -49,36 +49,41 @@ You should now be ready to make commits to your repository.
 - Type `git init`
 - Type `git remote add origin git@github.com:[repository].git`
 - Type `git add [Filename]` for each file in your folder.
-- Type `git commit -m ["Description of commit"]`
+- Type `git commit -m "[Description of commit]"`
 - Type `git push origin master`
 
 ## Webstorm:
 Webstorm is an integrated development environment (IDE) designed for web development.
 I personally will not be using Webstorm for my development. A student license copy of Webstorm 
-can be downloaded for free from:
-
+can be downloaded for free from:  
 https://www.jetbrains.com/webstorm/download/
-
+  
 You may apply for a student license here:
-
-https://www.jetbrains.com/community/education/#students
+https://www.jetbrains.com/community/education/#students  
+  
+Once installed, you will need to open the settings and navigate to version control section.
+Here you will set your VC system as Git and provide the path to the Git executable.
+  
+For much more in depth instructions on configuring Webstorm, enabling Git, creating a project, and managing a repository from Webstorm please see "ExtraInstallationInstructions-20200214.pdf" from the IS117 Canvas page.  
 
 ## Glossary
 - **Branch**: Version of a project or repository.
-- **Clone**: Clone a repository into a new repository/directory (man).
-- **Commit**: Record changes to the repository (man).
-- **Fetch**: Download files from a repository (man).
-- **GIT**: "the stupid content tracker" (man). Git is a revision control system, used primarily for code but is content agnostic.
+- **Clone**: Clone a repository into a new repository/directory (man7).
+- **Commit**: Record changes to the repository (man7).
+- **Fetch**: Download files from a repository (man7).
+- **GIT**: "the stupid content tracker" (man7). Git is a revision control system, used primarily for code but is content agnostic.
 - **Github**: Repository hosting service.
-- **Merge**: Combine changes from multiple users (man).
+- **Merge**: Combine changes from multiple users (man7).
 - **Merge Conflict**: Changes from multiple commits overlap eachother and Git cannot make sense of the changes.
-- **Push**: Confirm and transmit local changes to the repository (man).
-- **Pull**: Retrieve content from a repository or branch (man).
+- **Push**: Confirm and transmit local changes to the repository (man7).
+- **Pull**: Retrieve content from a repository or branch (man7).
 - **Remote**: Refers to a repository that is hosted on an external server.
 - **Repository**: A location where a Git project's data is stored.
 
 ## Sources:
-https://programmingwithswift.com/ssh-add-could-not-open-a-connection-to-your-authentication-agent/
-https://jhooq.com/github-permission-denied-publickey/
-https://github.github.com/gfm/#code-spans
-https://kbroman.org/github_tutorial/pages/init.html
+These are some helpful webpages I visited while configuring Git and Github:  
+https://man7.org/linux/man-pages/man1/git.1.html  
+https://programmingwithswift.com/ssh-add-could-not-open-a-connection-to-your-authentication-agent/  
+https://jhooq.com/github-permission-denied-publickey/  
+https://github.github.com/gfm/#code-spans  
+https://kbroman.org/github_tutorial/pages/init.html  
